@@ -1,0 +1,26 @@
+{
+  "name": "imageuploadertest",
+  "version": "1.0.0",
+  "description": "Testing Uploading and Rendering Images to/from MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjlaflamme1/ImageUploaderTest.git"
+  },
+  "author": "Chad J Laflamme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjlaflamme1/ImageUploaderTest/issues"
+  },
+  "homepage": "https://github.com/cjlaflamme1/ImageUploaderTest#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
